@@ -7,7 +7,7 @@ div.a {
   text-indent: 50px;
 }
 	
-div.header {
+div.pinky {
 	opacity: 0.4;
 	color:pink;
 	padding:10px;
@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-	align: center;
+	text-align: center;
 }
 
 a {
@@ -85,11 +85,7 @@ footer {
   	background-color: #543864;
   	padding: 20px;
   	text-align: center;
-  	color: white;
-}
-
-footer.p {
-	color:#6a60a9
+  	color: #6a60a9;
 }
 
 @media (max-width: 600px) {
