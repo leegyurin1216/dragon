@@ -1,0 +1,16 @@
+<ul>
+  <li><a href="#!introduction" onclick="fetchPage('introduction')">♥self introduction</a></li><br>
+  <li><a href="#!programming" onclick="fetchPage('programming')">♥study</a></li><br>
+    <ul>
+      <li><a href="#!programming" onclick="fetchPage('programming')">&nbsp &nbsp ♡programming</a></li><br>
+      <li><a href="#!schooling" onclick="fetchPage('schooling')">&nbsp &nbsp ♡schooling</a></li><br>
+    </ul>
+  <li><a href="#!writing" onclick="fetchPage('writing')">♥hobby</a></li><br>
+    <ul>
+      <li><a href="#!writing" onclick="fetchPage('writing')">&nbsp &nbsp ♡writing</a></li><br>
+      <li><a href="#!drawing" onclick="fetchPage('drawing')">&nbsp &nbsp ♡drawing</a></li><br>
+      <li><a href="#!picturing" onclick="fetchPage('picturing')">&nbsp &nbsp ♡picturing</a></li><br>
+    </ul>
+  <li><a href="#!contact" onclick="fetchPage('contact')">♥contact to gyurin</a></li><br>
+  <li><a href="#!visitor" onclick="fetchPage('visitor')">♥for visitor</a></li>
+</ul>

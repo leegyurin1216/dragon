@@ -1,0 +1,107 @@
+/*전체 배경 색, 여백 폭*/
+body {
+	background-color: #f1d1d1;
+  margin-left:15%;
+	margin-right:15%;
+}
+
+/*로고부분 이미지*/
+header {
+	background-image: url('https://images.unsplash.com/photo-1568283096533-078a24930eb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+	padding: 5%;
+}
+
+/*로고 글씨*/
+div.logo {
+	opacity: 0.4;
+	color:pink;
+	padding-left:30%;
+	padding-right:15%;
+	width:border-box;
+	margin:auto;
+	font-size: 80px;
+	text-align: right;
+	text-shadow: 8px 8px #6155a6;
+}
+
+/*article이 나란히 있게 함. 지우지 말 것.*/
+* {
+	box-sizing: border-box;
+}
+
+/*section; nav와 article로 이루어짐.*/
+section {
+	display:flex;
+	flex-flow: row nowrap; /*nav와 article이 화면을 꽉차게 함.*/
+}
+
+/*nav; list 감싸고 있는 것.*/
+nav {
+  	float: left;
+  	height: auto;
+  	width: 20%;
+		padding: 3%;
+		top:0;
+  	background: #D3C4D1;
+}
+
+/*nav 안 list 글씨에 대한 속성*/
+nav ul {
+  	list-style-type: none;
+    padding: 0;
+}
+
+/*article; 각 페이지별 내용을 담는 틀.*/
+article {
+ 	float: left;
+	height: auto;
+	width: 80%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/*article안 article 제목*/
+h3 {
+	font-size: 20px;
+	text-align: center;
+	color : #ffaaa5;
+	text-shadow: 2px 2px #ffeebb;
+}
+
+/*article의 파란박스*/
+div.a {
+  text-indent: 50px;
+	padding:1px;
+	background-color:#d3e0f7;
+	color:black;
+}
+
+/*사이트 가장 밑바닥에 있는 copyright 써있는 박스*/
+footer {
+	position:relative;
+  padding: 20px;
+  text-align: center;
+	background-color: #7d5a5a;
+  color: #ffecc7;
+}
+
+/*media 기기로 사이트 볼 때의 설정*/
+@media (max-width: 600px) {
+  	nav, article {
+    		width: 100%;
+    		height: auto;
+}
+}
+
+/*사이트 내 모든 하이퍼링크 글자에 대하여*/
+a {
+	text-decoration: none; /*밑줄 없게 함*/}
+a:link { /*unvisited link*/
+	color: #30A9DE;}
+a:visited { /*visited link*/
+  color: #9055A2;}
+a:hover { /*mouse over link*/
+	color: #ffcc29;}
+a:active { /*selected link 순간*/
+  color: #ec4646;}

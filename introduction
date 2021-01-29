@@ -1,0 +1,67 @@
+<h3>♥ Self introduction ♥</h3>
+
+<div class="a">
+	<h4>Who am I?</h4>
+</div>
+
+<ul>
+	<li>name: 이규린</li>
+	<li>birthday: 2000.12.16</li>
+	<li>age: 만 20세</li>
+	<li>school: Kyunghee University</li>
+	<li>major: biomedical-engineering ＆ electronic-engineering</li>
+	<li>hometown: Daejeon</li>
+</ul>
+
+<p align=center>
+	<img src="image/myphoto2.jpg" width=30%>
+	<img src="image/myphoto.jpg" width=30%>
+	<img src="image/daejeon.jpg" width=30%>
+</p>
+
+<div class="a">
+	<h4>I like</h4>
+</div>
+
+<ul>
+	<li>밤하늘</li>
+</ul>
+
+<p align=center>
+	<img src="image/star1.jpg" width=30%>
+	<img src="image/star3.jpg" width=30%>
+	<img src="image/star2.jpg" width=30%>
+</p>
+
+<ul>
+	<li>디즈니</li>
+</ul>
+
+<p align=center>
+	<img src="image/disney1.jpg" width=30%>
+	<img src="image/disney2.jpg" width=30%>
+	<img src="image/disney3.jpg" width=30%>
+</p>
+
+<ul>
+	<li>맛있는 거</li>
+</ul>
+
+<p align=center>
+	<img src="image/yummy1.jpg" width=30%>
+	<img src="image/yummy2.jpg" width=30%>
+	<img src="image/yummy3.jpg" width=30%>
+</p>
+
+<ul>
+	<li>사진 찍기</li>
+</ul>
+
+<p align=center>
+	<img src="image/photo1.jpg" width=30%>
+	<img src="image/photo2.jpg" width=30%>
+	<img src="image/photo3.jpg" width=30%><br>
+	<img src="image/photo4.jpg" width=30%>
+	<img src="image/photo5.jpg" width=30%>
+	<img src="image/photo6.jpg" width=30%>
+</p>
