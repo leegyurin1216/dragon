@@ -19,7 +19,7 @@
   맨 처음 만든 사이트. 오직 아주 간단하고 기초적인 html, css로만 구현되었다.<br><br>
 
   <strong>
-  <a href="version/v01.01.00.zip" download>v01.01.00.zip</a>
+  <a href="https://drive.google.com/file/d/1XnLEuZL22c-0ivFTTUO-COIvlX5crYrs/view?usp=sharing">v01.01.00.zip</a>
   (2021.02.01.) </strong><br>
   codepen이라는 사이트 알게 되고 초기 버전과 비교했을 때 꽤 많이 발전했다고 생각한다. 하지만 아직 js는 없다.
   가장 큰 변화는 메뉴(nav)에서 하위 메뉴가 생긴 것, 전반적인 사이트 구성을 정리한 것, modal의 도입이다.
