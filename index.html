@@ -14,33 +14,42 @@
         document.querySelector('article').innerHTML = text; }) }); }
   if(location.hash){
     fetchPage(location.hash.substr(2));
-  } else {fetchPage('welcome');}
+  } else {fetchPage('subpages/welcome');}
   fetch('list').then(function(response){
     response.text().then(function(text){
-      document.querySelector('#nav').innerHTML = text; }) });
+      document.querySelector('.main-nav').innerHTML = text; }) });
   </script>
-
-
-
-
 </head>
+
 
 <body>
 
 
 	<header>
 		<a href="index.html">
-	  	<h2><div class="logo">Lee <br> Gyurin </div></div></h2>
+	  	<h2><div class="logo">
+				Lee <br>Gyurin
+			</div></h2>
 		</a>
 	</header>
 
+	<container style="position: sticky; top:0;">	<div class="element">
+			<nav class="main-nav"> </nav>
+	</div></container>
 
-	<section>
-		<nav><ul id="nav"> </ul></nav>
+
+
 		<article>	</article>
-	</section>
 
-	<footer>  <p>ⓒ 2021. Lee Gyurin All Rights Reserved.</p> </footer>
+
+
+
+		<div style="clear:both;"></div>
+		<footer>  <p>ⓒ 2021. Lee Gyurin All Rights Reserved.<br>
+			v01.01.00</p>
+		</footer>
+
+
 
 </body>
 

@@ -1,16 +1,31 @@
 <ul>
-  <li><a href="#!introduction" onclick="fetchPage('introduction')">♥self introduction</a></li><br>
-  <li><a href="#!programming" onclick="fetchPage('programming')">♥study</a></li><br>
+  <li><a href="#!subpages/introduction" onclick="fetchPage('subpages/introduction')">&nbsp&nbsp🧚‍♀️&nbsp&nbsp</a></li>
+  <li> <a href="#!subpages/programming" onclick="fetchPage('subpages/programming')"> &nbsp&nbsp📚&nbsp&nbsp <span class="caret caret-down"></span></a>
     <ul>
-      <li><a href="#!programming" onclick="fetchPage('programming')">&nbsp &nbsp ♡programming</a></li><br>
-      <li><a href="#!schooling" onclick="fetchPage('schooling')">&nbsp &nbsp ♡schooling</a></li><br>
+      <li><a href="#!subpages/programming" onclick="fetchPage('subpages/programming')">👩‍💻 프로그래밍</a></li>
+      <li><a href="#!subpages/math" onclick="fetchPage('subpages/math')"> 👩‍⚕️ 경희<span class="caret caret-down"></span></a>
+        <ul>
+          <li><a href="#!subpages/math" onclick="fetchPage('subpages/math')">math</a></li>
+          <li><a href="#!subpages/physics" onclick="fetchPage('subpages/physics')">physics</a></li>
+        </ul>
+      </li>
     </ul>
-  <li><a href="#!writing" onclick="fetchPage('writing')">♥hobby</a></li><br>
+    </li>
+    <li> <a href="#!subpages/writing" onclick="fetchPage('subpages/writing')"> &nbsp&nbsp🎠&nbsp&nbsp <span class="caret caret-down"></span></a>
     <ul>
-      <li><a href="#!writing" onclick="fetchPage('writing')">&nbsp &nbsp ♡writing</a></li><br>
-      <li><a href="#!drawing" onclick="fetchPage('drawing')">&nbsp &nbsp ♡drawing</a></li><br>
-      <li><a href="#!picturing" onclick="fetchPage('picturing')">&nbsp &nbsp ♡picturing</a></li><br>
+      <li><a href="#!subpages/writing" onclick="fetchPage('subpages/writing')">📃 쓰기</a></li>
+      <li><a href="#!subpages/drawing" onclick="fetchPage('subpages/drawing')">🎨 그리기</a></li>
+      <li><a href="#!subpages/picturing" onclick="fetchPage('subpages/picturing')">📸 찍기</a></li>
     </ul>
-  <li><a href="#!contact" onclick="fetchPage('contact')">♥contact to gyurin</a></li><br>
-  <li><a href="#!visitor" onclick="fetchPage('visitor')">♥for visitor</a></li>
+    </li>
+  <li><span style="background-color:white;"><a href="#!subpages/welcome" onclick="fetchPage('subpages/welcome')">&nbsp&nbsp🏠&nbsp&nbsp</a></span></li>
+  <li><a href="#!subpages/contact" onclick="fetchPage('subpages/contact')">&nbsp&nbsp📞&nbsp&nbsp</a></li>
+  <li><a href="#!subpages/visitor" onclick="fetchPage('subpages/visitor')">&nbsp&nbsp🧸&nbsp&nbsp</a></li>
+  <li> <a href="#!subpages/test0" onclick="fetchPage('subpages/test0')"> &nbsp&nbsp👻&nbsp&nbsp <span class="caret caret-down"></span></a>
+  <ul>
+    <li><a href="#!subpages/test0" onclick="fetchPage('subpages/test0')">실험</a></li>
+    <li><a href="#!subpages/test01" onclick="fetchPage('subpages/test01')">test01</a></li>
+    <li><a href="#!subpages/test02" onclick="fetchPage('subpages/test02')">test02</a></li>
+    <li><a href="#!subpages/test03" onclick="fetchPage('subpages/test03')">test03</a></li>
+  </ul>
 </ul>
