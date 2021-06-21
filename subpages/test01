@@ -1,0 +1,17 @@
+<div class="container">
+
+  <div class="gallery">
+
+    <div class="gallery-item"><img class="gallery-image" src="http://www.placeimg.com/330/265" alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">George Washington</span><span class="title">Principal</span></span></div>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of John Adams"><span class="text-wrapper"><span class="name">John Adams</span><span class="title">Chief Financial Officer</span></span></a>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of Thomas Jefferson"><span class="text-wrapper"><span class="name">Thomas Jefferson</span><span class="title">Chief Operating Officer</span></span></a>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of James Madison"><span class="text-wrapper"><span class="name">James Madison</span><span class="title">Developer</span></span></a>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of James Monroe"><span class="text-wrapper"><span class="name">James Monroe</span><span class="title">Developer</span></span></a>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of Andrew Jackson"><span class="text-wrapper"><span class="name">Andrew Jackson</span><span class="title">Designer</span></span></a>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of John Tyler"><span class="text-wrapper"><span class="name">John Tyler</span><span class="title">Designer</span></span></a>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of James Polk"><span class="text-wrapper"><span class="name">James Polk</span><span class="title">Project Manager</span></span></a>
+    <a class="gallery-item" href="#"><img src="http://placeimg.com/330/265" alt="Headshot of Zachary Taylor"><span class="text-wrapper"><span class="name">Zachary Taylor</span><span class="title">Project Manager</span></span></a>
+
+  </div>
+
+</div>

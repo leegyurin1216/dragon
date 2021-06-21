@@ -1,0 +1,49 @@
+<h3> 💡 Experiment 💡 </h3>
+<p align="center"> 여기는 여러가지 웹언어 코드를 테스트하는 공간이다.</p>
+
+	<h4>실험 목록</h4>
+
+
+<div class="whitebox">
+	<ol>
+		<li>이미지 hover 시 어두워지게, 이미지 여러 개 있을 때 화면 크기에 따라 화면에 표시되는 게 다르게 하기.
+    원본코드 출처는 <a href="https://codepen.io/joslex/pen/qbrMxM" target="_blank" >코드펜</a> 이다.
+    여기다가 .gallery의 id에 justify-content: center;의 속성을 더 추가해주어 가운데 정렬하게 해주었다.
+    2021.01.31.</li>
+		<li>modal. 버튼 클릭하면 창 나와서 뜨는거. 출처는 <a href="https://codepen.io/Idered/pen/vytkH" target="_blank" >코드펜</a> 이다.
+    2021.01.31.</li>
+		<li>canvas랑 그림판 좀 해보다가 안됨.... 성공 못함. 일단 보류.. 2021.02.01. </li>
+	</ol>
+
+<br>
+</div>
+<br>
+
+	<h4>할 것 목록</h4>
+
+
+<div class="whitebox">
+	<ol>
+		<li style="text-decoration: line-through;">modal</li>
+		<li>맨위로 이동하게 하는 버튼</li>
+		<li>방명록 부분 보수하기...</li>
+		<li style="text-decoration: line-through;">폰트 바꿔보기</li>
+		<li>ico 바꾸기</li>
+		<li>canvas 배우기, 그림판 만들기 해보기</li>
+	</ol>
+
+<br>
+</div>
+<br>
+
+<h4>유용한 site</h4>
+<div class="whitebox">
+<ul>
+	<li><a href="https://www.w3schools.com">https://www.w3schools.com</a></li>
+	<li><a href="https://codepen.io">https://codepen.io</a></li>
+</ul>
+</div>
+<br>
+<br>
+</div>
+<br><br>

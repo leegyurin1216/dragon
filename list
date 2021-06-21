@@ -1,0 +1,73 @@
+<ul>
+  <li><a href="#!subpages/introduction" onclick="fetchPage('subpages/introduction')">&nbsp&nbsp🧚‍♀️&nbsp&nbsp</a></li>
+
+
+  <li> <a href="#!subpages/programming" onclick="fetchPage('subpages/programming')"> &nbsp&nbsp📚&nbsp&nbsp <span class="caret caret-down"></span></a>
+    <ul>
+      <li><a href="#!subpages/programming" onclick="fetchPage('subpages/programming')">👩‍💻 프로그래밍</a></li>
+      <li><a href="#"> 👩‍⚕️ 경희<span class="caret caret-down"></span></a>
+        <ul>
+          <li><a href="#!subpages/study/physics1" onclick="fetchPage('subpages/study/physics1')">2019<span class="caret caret-down"></span></a>
+          <ul>
+            <li><a href="#!subpages/study/physics1" onclick="fetchPage('subpages/study/physics1')">물리학 및 실험1</a></li>
+            <li><a href="#!subpages/study/physics2" onclick="fetchPage('subpages/study/physics2')">물리학 및 실험2</a></li>
+          </ul>
+          <li><a href="#!subpages/study/math" onclick="fetchPage('subpages/study/math')">2020(1)<span class="caret caret-down"></span></a>
+          <ul>
+            <li><a href="#!subpages/study/math" onclick="fetchPage('subpages/study/math')">공학수학</a></li>
+            <li><a href="#!subpages/study/electromagnetics" onclick="fetchPage('subpages/study/electromagnetics')">전자기학</a></li>
+            <li><a href="#!subpages/study/physiology" onclick="fetchPage('subpages/study/physiology')">인체생리학</a></li>
+            <li><a href="#!subpages/study/biochemical" onclick="fetchPage('subpages/study/biochemical')">의공생명과학</a></li>
+          </ul>
+          <li><a href="#!subpages/study/signalsystem" onclick="fetchPage('subpages/study/signalsystem')">2020(2)<span class="caret caret-down"></span></a>
+          <ul>
+            <li><a href="#!subpages/study/signalsystem" onclick="fetchPage('subpages/study/signalsystem')">신호와 시스템</a></li>
+            <li><a href="#!subpages/study/logic" onclick="fetchPage('subpages/study/logic')">논리회로</a></li>
+            <li><a href="#!subpages/study/neuro" onclick="fetchPage('subpages/study/neuro')">신경생리학</a></li>
+            <li><a href="#!subpages/study/electronic_circuit" onclick="fetchPage('subpages/study/electronic_circuit')">기초전자회로</a></li>
+            <li><a href="#!subpages/study/probability" onclick="fetchPage('subpages/study/probability')">확률 및 통계</a></li>
+            <li><a href="#!subpages/study/bmeexp1" onclick="fetchPage('subpages/study/bmeexp1')">생체의공실험</a></li>
+          </ul>
+          <li><a href="#!subpages/study/opamp" onclick="fetchPage('subpages/study/opamp')">2021(1)<span class="caret caret-down"></span></a>
+          <ul>
+            <li><a href="#!subpages/study/opamp" onclick="fetchPage('subpages/study/opamp')">응용전자회로</a></li>
+            <li><a href="#!subpages/study/physicalelectronics" onclick="fetchPage('subpages/study/physicalelectronics')">물리전자</a></li>
+            <li><a href="#!subpages/study/systemcontrol" onclick="fetchPage('subpages/study/systemcontrol')">생체시스템제어</a></li>
+            <li><a href="#!subpages/study/mis" onclick="fetchPage('subpages/study/mis')">의료영상시스템</a></li>
+            <li><a href="#!subpages/study/comarchi" onclick="fetchPage('subpages/study/comarchi')">컴퓨터구조 및 응용</a></li>
+            <li><a href="#!subpages/study/oop" onclick="fetchPage('subpages/study/oop')">객체지향프로그래밍 및 실습</a></li>
+          </ul>
+        </ul>
+      </li>
+    </ul>
+    </li>
+
+
+    <li> <a href="#!subpages/writing" onclick="fetchPage('subpages/writing')"> &nbsp&nbsp🎠&nbsp&nbsp <span class="caret caret-down"></span></a>
+    <ul>
+      <li><a href="#!subpages/writing" onclick="fetchPage('subpages/writing')">📃 쓰기</a></li>
+      <li><a href="#!subpages/drawing" onclick="fetchPage('subpages/drawing')">🎨 그리기</a></li>
+      <li><a href="#!subpages/picturing" onclick="fetchPage('subpages/picturing')">📸 찍기</a></li>
+    </ul>
+    </li>
+
+
+  <li><span style="background-color:white;"><a href="#!subpages/welcome" onclick="fetchPage('subpages/welcome')">&nbsp&nbsp🏠&nbsp&nbsp</a></span></li>
+
+
+  <li><a href="#!subpages/contact" onclick="fetchPage('subpages/contact')">&nbsp&nbsp📞&nbsp&nbsp</a></li>
+
+
+  <li><a href="#!subpages/visitor" onclick="fetchPage('subpages/visitor')">&nbsp&nbsp🧸&nbsp&nbsp</a></li>
+
+
+  <li> <a href="#!subpages/test0" onclick="fetchPage('subpages/test0')"> &nbsp&nbsp👻&nbsp&nbsp <span class="caret caret-down"></span></a>
+  <ul>
+    <li><a href="#!subpages/test0" onclick="fetchPage('subpages/test0')">실험</a></li>
+    <li><a href="#!subpages/test01" onclick="fetchPage('subpages/test01')">test01</a></li>
+    <li><a href="#!subpages/test02" onclick="fetchPage('subpages/test02')">test02</a></li>
+    <li><a href="#!subpages/test03" onclick="fetchPage('subpages/test03')">test03</a></li>
+  </ul>
+
+
+</ul>

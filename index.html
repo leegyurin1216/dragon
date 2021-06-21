@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>이규린</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script>
+		function fetchPage(name){
+    fetch(name).then(function(response){
+      response.text().then(function(text){
+        document.querySelector('article').innerHTML = text; }) }); }
+  if(location.hash){
+    fetchPage(location.hash.substr(2));
+  } else {fetchPage('subpages/welcome');}
+  fetch('list').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.main-nav').innerHTML = text; }) });
+  </script>
+<!--[if IE]><script src="js/excanvas.js"></script><![endif] -->
+<script>if (typeof G_vmlCanvasManager != 'undefined') {
+   canvas = G_vmlCanvasManager.initElement(canvas);
+}</script>
+</head>
+
+
+<body>
+
+
+	<header>
+		<a href="index.html">
+	  	<h2><div class="logo">
+				Lee <br>Gyurin
+			</div></h2>
+		</a>
+	</header>
+
+	<container style="position: sticky; top:0;">	<div class="element">
+			<nav class="main-nav"> </nav>
+	</div></container>
+
+
+
+		<article>	</article>
+
+
+
+
+		<div style="clear:both;"></div>
+		<footer>  <p>ⓒ 2021. Lee Gyurin All Rights Reserved.<br>
+			v01.01.00</p>
+		</footer>
+
+
+
+</body>
+
+</html>

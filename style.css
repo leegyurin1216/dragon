@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic&family=Noto+Sans&family=Noto+Sans+KR&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=East+Sea+Dokdo&family=Gamja+Flower&family=Gugi&family=Jua&family=Lato&family=Montserrat&family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Myeongjo:wght@400;700;800&family=Nanum+Pen+Script&family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&family=Open+Sans&family=Poor+Story&family=Roboto&family=Song+Myung&family=Stylish&family=Sunflower:wght@300&family=Yeon+Sung&display=swap');
+
+	container {
+	  display:flex;
+		align-items: center;
+  	justify-content: center;
+	  animation: pulsecolor 10s infinite;
+		z-index:3;
+	}
+
+
+	@keyframes pulsecolor {
+	  0% {background:#ad6989;}
+	  33% {background: #fca3cc;}
+	  67% {background:#f5b461;}
+	  100% {background:#ad6989;}
+	}
+
+/*전체 배경 색, 여백 폭*/
+body {
+	background-color: #fcfcfc; /*#f1d1d1;*/
+	/*background-image: url('https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1902&q=80');
+	background-size:cover;*/
+	/*margin-left:15%;
+	margin-right:15%;*/
+	height: 100%;
+	margin:0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*로고부분 이미지*/
+header {
+	background-image: url('https://images.unsplash.com/photo-1568283096533-078a24930eb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+	height:100%;
+  background-size: cover;
+	background-position: center;
+	padding: 6%;
+	position:static;
+}
+
+/*로고 글씨*/
+div.logo {
+	opacity: 0.8;
+	color:#fbd14b;
+	width:border-box;
+	padding-left: 30%;
+  padding-right: 15%;
+	margin:auto;
+	font-size: 350%;
+	text-align: right;
+	font-weight: bold;
+	text-shadow: 7px 7px #6155a6;
+	line-height: 0.9;
+	font-family: 'Song Myung', serif;
+}
+
+
+/*article; 각 페이지별 내용을 담는 틀.*/
+article {
+	height: auto;
+	margin-top:0;
+	margin-left:10%;
+	margin-right:10%;
+  /*padding: 20px;*/
+  /*background-color: #f1f1f1;*/
+	background-color: rgba( 255, 255, 255, 0);
+}
+
+/*article안 article 제목*/
+h3 {
+	font-size: 250%;
+	text-align: center;
+	color : #ee9595;
+	text-shadow: 2px 2px #ffeebb;
+	font-family: 'Song Myung', serif;
+}
+h3::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h3:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h3::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+h3 {
+  position: relative;
+}
+
+
+/*article 각 주제의 제목*/
+h4 {
+	padding:10px;
+	background-color:#ffc764;
+	color:white;
+	font-size: 150%;
+	text-align:center;
+	margin-bottom: 0;
+	font-family: 'Song Myung', serif;
+}
+
+.whitebox {
+	background-color:#fce2ce;
+	padding: 1px;
+}
+
+p{
+	padding:1%;
+}
+/*사이트 가장 밑바닥에 있는 copyright 써있는 박스*/
+footer {
+	position:relative;
+	bottom:0;
+  left: 0;
+	bottom: 0;
+  padding: 20px;
+  text-align: center;
+	background-color: #7d5a5a;
+  color: #ffecc7;
+	font-size:80%;
+	font-family: 'Song Myung', serif;
+}
+
+
+/*사이트 내 모든 하이퍼링크 글자에 대하여*/
+a {
+text-decoration: none; /*밑줄 없게 함*/}
+a:link { /*unvisited link*/
+	color: #30A9DE;}
+a:visited { /*visited link*/
+  color: #9055A2;}
+a:hover { /*mouse over link*/
+	color: #ffcc29;}
+a:active { /*selected link 순간*/
+  color: #ec4646;}
+
+
+	nav {
+		position: sticky;
+		top: 0;
+	}
+		/* Menu Settings */
+		.main-nav {
+		  background-color: #F96E5B;
+		  width: 100%;
+		  /*min-height: 50px;*/
+			padding:1px;
+			border:0;
+			margin:0;
+		}
+		.main-nav ul {
+		  /*   float: left; */ /*use this if needed*/
+		  text-align: center;
+			padding-inline-start: 0px;
+		  /*letter-spacing: -1em;*/
+		  /*   this is for removing the space that is created due to display: inline-block into li */
+		}
+
+		.main-nav ul li {
+		  display: inline-block;
+		  letter-spacing: normal;
+		  /*   Same as previous comment */
+		}
+
+		.main-nav ul li a {
+		  font-size: 100%;
+		  display: block;
+		  line-height: 30px;
+		  color: #fff;
+		  padding: 0 20px;
+
+		/* ↓ this is important. See the difference by removing this */
+		  white-space: nowrap;
+		}
+
+		/* Simple hover*/
+		.main-nav ul li:hover {
+		  background-color: blue;
+		}
+
+		/*Active dropdown nav item*/
+		.main-nav ul li:hover > a{
+		  background-color: green;
+		}
+
+
+		/* Dropdown CSS */
+		.main-nav ul li {position: relative;}
+
+		.main-nav ul li ul {
+		  position: absolute;
+		  background-color: #E7512F;
+		  min-width: 100%;
+		  text-align: left;
+		  z-index: 999;
+		  display: none;
+		}
+		.main-nav ul li ul li {
+		  display: block;
+		}
+
+		/* Dropdown CSS */
+		.main-nav ul li ul ul {
+		  left: 100%;
+		  top: 0;
+		}
+
+		/* Active on Hover */
+		.main-nav li:hover> ul {
+		  display: block;
+		}
+
+
+		/* Arrow; 화살표 모양 및 위치 */
+		.caret {
+		  height: 0;
+		  position: absolute;
+		  right: 5px;
+		  top: 60%;
+		  width: 0;
+		}
+
+		.caret-down {
+		  border-left: 5px solid transparent;
+		  border-right: 5px solid transparent;
+		  border-top: 5px solid #fff;
+		}
+
+		.caret-right {
+		  border-top: 5px solid transparent;
+		  border-bottom: 5px solid transparent;
+		  border-left: 5px solid #fff;
+		  margin-top: -2px;
+		}
+
+/*여기서부턴 테스트용*/
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  width:350px;
+  height: 350px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.gallery-item img {
+  position: absolute;
+}
+
+.text-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+
+.text-wrapper:hover {
+  transition: all 0.8s ease;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+.name {
+  font-size: 1.5em;
+}
+
+
+/* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
+
+@media only screen and (max-width: 1024px) {
+  .text-wrapper {
+    opacity: 1;
+    justify-content: flex-end;
+    text-shadow: 1px 1px 1px #000;
+  }
+  .title {
+    margin-bottom: 1em;
+  }
+}
+
+
+/*media 기기로 사이트 볼 때의 설정*/
+@media (max-width: 600px) {
+  	nav, article {
+    		width: 100%;
+    		height: auto;
+}
+.main-nav ul li a {
+		font-size: 200%;}
+}
+
+
+
+/* [Object] Modal
+ * =============================== */
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0,0,0, .9);
+  transition: opacity .25s ease;
+	z-index:5;
+}
+
+.modal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+}
+
+.modal__inner {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1em 2em;
+  height: 80%;
+}
+
+.modal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+}
+
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #aaa;
+}
+
+.modal__close:before {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+
+  .modal__inner {
+    width: 90%;
+    height: 90%;
+    box-sizing: border-box;
+  }
+}
+
+.btn {
+  cursor: pointer;
+  background: #a79c8e;
+  padding: .5em 1em;
+  color: #fff;
+	white-space:nowrap;
+  border-radius: 3px;
+	font-family: 'Yeon Sung', cursive;
+	font-size: 150%;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #eb9f9f;
+}
+.btn:active {
+  background: #f1bbba;
+  box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
+}
+
+
+
+.btn--blue {
+  background: rgba( 255, 255, 255, 0 );
+	padding:20px;
+}
+.btn--blue:hover,
+.btn--blue:focus {
+  background: rgba( 255, 255, 255, 0 );
+}
+.btn--blue:active {
+  background: rgba( 0, 0, 0, 0 );
+}
+
+
+
+
+
+
+
+
+canvas {
+ box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+ float: left;
+ background: #fff;
+ border-radius: 6px;
+ display: block;
+}
+
+#drawingcontainer div {
+ font-size: 30px;
+ padding: 15px;
+ line-height: 30px;
+}
+
+#drawingcontainer {
+ width: 710px;
+ margin: 0px auto;
+}
+
+#drawingcontainer span {
+ float: left;
+ text-transform: uppercase;
+ padding: 0 20px 20px 20px;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+
+#drawingcontainer .text {
+ text-align: center;
+ float: left;
+ width: 100%;
+ font-size: 50px;
+ padding: 40px 0;
+}
+
+#drawingcontainer canvas {
+ margin: 0 0 50px 0;
+ cursor:crosshair;
+}

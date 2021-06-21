@@ -1,0 +1,138 @@
+<h3>" Writing "</h3>
+<p align="center"> 내맘대로 쓰고 지우기 <br>
+노랫말과 싯말이 예쁜 것을 좋아한다. </p>
+	<h4>노래 필사 모음</h4>
+
+
+<div class="whitebox" align=center>
+<br>
+
+<label class="btn" for="modal-1">주저하는 연인들을 위해</label>
+<input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-1"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-1"></label>
+    <!--<h2>주저하는 연인들을 위해</h2>-->
+    <p align=center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GdoNGNe5CSg"
+    frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img src="image/cali_1.png" width=100% alt="" />
+    기록 날짜 : 2021.01.31. <br>
+		내가 정말 좋아하는, 귀에 닳도록 들은 노래 중 하나이다. 처음 이 노래를 들었을 때의 감흥이 사라져가
+		계속 듣기 아까운 곡이지만, 이미 너무 많이 들어버린 그런 곡이다. 가사가 너무 예쁘다. 나는 이렇게
+		어렴풋한 가사의 음악이 너무 좋다. 이 음악을 계기로 나는 잔나비 노래를 많이 찾아 듣게 되었다.
+    </p>
+  </div>
+</div>
+&nbsp
+
+
+
+<label class="btn" for="modal-2">이지금</label>
+<input class="modal-state" id="modal-2" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-2"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-2"></label>
+    <!--<h2>이지금</h2>-->
+    <p align=center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8ykMyNHAdKk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img src="image/cali_2.png" width=100% alt="" />
+    기록 날짜 : 2021.02.01. <br>
+		고등학생 때 이 노래 정말 많이 들었다. 수능 전날에도 이 노래를 몇 번이나 반복해서 들었다.
+		가끔씩 주기적으로 꼭 들어줘야하는 노래다. 나는 가사 중에서 '안녕 나의 주인공, 그래 너를 만나러 나 짜잔 우아하게 등장' 부분이
+		정말 좋다. 노래 멜로디도 뮤지컬스럽고 아주 좋다.. 아이유 노래 중에서
+		새신발, unlucky, 이지금이 비슷비슷한 분위기이고 이런 노래들이 특히나 아이유만 낼 수 있는 분위기의 음악이라고 생각한다.
+    </p>
+  </div>
+</div>&nbsp
+
+
+<label class="btn" for="modal-3">달</label>
+<input class="modal-state" id="modal-3" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-3"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-3"></label>
+    <p align=center>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/cgo6YcqPfno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<img src="image/20210204_달.jpg" width=100% alt="" />
+		기록 날짜 : 2021.02.04. <br>
+		가사와 멜로디가 너무 예쁜 곡이다. 밤에 이 노래 들으면 슬프고 좋다.
+				</p>
+  </div>
+</div>
+
+
+<br><br>
+</div>
+<br>
+
+	<h4>시 필사 모음</h4>
+
+
+<div class="whitebox" align=center>
+<br>
+
+<label class="btn" for="modal-a">서시</label>
+<input class="modal-state" id="modal-a" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-a"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-a"></label>
+		<p><img src="image/20210203_서시.png" width=100% alt="" />
+
+		</p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-b">꽃</label>
+<input class="modal-state" id="modal-b" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-b"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-b"></label>
+		<p><img src="image/20210204_꽃.jpg" width=100% alt="" />
+
+		</p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-c">모란이 피기까지는</label>
+<input class="modal-state" id="modal-c" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-c"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-c"></label>
+		<p><img src="image/20210204_모란꽃.jpg" width=100% alt="" />
+
+		</p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-d">눈사람 여관</label>
+<input class="modal-state" id="modal-d" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-d"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-d"></label>
+		<p><img src="image/20210204_눈사람여관.jpg" width=100% alt="" />
+
+		</p>
+  </div>
+</div>
+&nbsp
+
+<br><br>
+  </div>
+</div>
+
+
+<br><br>
+</div>
+<br><br>

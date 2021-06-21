@@ -1,0 +1,82 @@
+<h3>♥ Self introduction ♥</h3>
+
+
+	<h4>Who am I?</h4>
+
+
+<div class="whitebox">
+	<ul>
+		<li>name: 이규린</li>
+		<li>birthday: 2000.12.16</li>
+		<li>age: 만 20세</li>
+		<li>school: Kyunghee University</li>
+		<li>major: biomedical-engineering ＆ electronic-engineering</li>
+		<li>hometown: Daejeon</li>
+		<li>mbti : INTJ</li>
+	</ul>
+	<div class="container" >
+  	<div class="gallery" >
+    <a class="gallery-item" ><img src="image/myphoto2.jpg" width=350px height=350px alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">2000.12.16</span><span class="title"></span></span></a>
+    <a class="gallery-item" ><img src="image/myphoto.jpg" width=350px height=350px alt="Headshot of John Adams"><span class="text-wrapper"><span class="name">이규린</span><span class="title"></span></span></a>
+    <a class="gallery-item" ><img src="image/daejeon.jpg" width=350px height=350px alt="Headshot of Thomas Jefferson"><span class="text-wrapper"><span class="name">대전</span><span class="title"></span></span></a>
+  	</div>
+	</div>
+<br>
+
+</div>
+
+<br>
+<h4>
+I like
+</h4>
+<div class="whitebox">
+<ul>
+	<li>밤하늘</li>
+</ul>
+<div class="container" >
+	<div class="gallery" >
+	<a class="gallery-item" ><img src="image/star1.jpg" width=350px height=350px alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">안반데기에서</span><span class="title">2019.07.</span></span></a>
+	<a class="gallery-item" ><img src="image/star3.jpg" width=350px height=350px alt="Headshot of John Adams"><span class="text-wrapper"><span class="name">경희대 기숙사 앞에서</span><span class="title">2019.10.</span></span></a>
+	<a class="gallery-item" ><img src="image/star2.jpg" width=350px height=350px alt="Headshot of Thomas Jefferson"><span class="text-wrapper"><span class="name">경희대 도서관 앞에서</span><span class="title">2019.10.</span></span></a>
+	</div>
+</div>
+
+<ul>
+	<li>디즈니</li>
+</ul>
+<div class="container" >
+	<div class="gallery" >
+	<a class="gallery-item" ><img src="image/disney1.jpg" width=350px height=350px alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">Disney Princess</span><span class="title">2019.01.</span></span></a>
+	<a class="gallery-item" ><img src="image/disney2.jpg" width=350px height=350px alt="Headshot of John Adams"><span class="text-wrapper"><span class="name">Tokyo Disney World</span><span class="title">2019.01.</span></span></a>
+	<a class="gallery-item" ><img src="image/disney3.jpg" width=350px height=350px alt="Headshot of Thomas Jefferson"><span class="text-wrapper"><span class="name">Tokyo Disney World</span><span class="title">2019.01.</span></span></a>
+	</div>
+</div>
+
+<ul>
+	<li>맛있는 거</li>
+</ul>
+<div class="container" >
+	<div class="gallery" >
+	<a class="gallery-item" ><img src="image/yummy1.jpg" width=350px height=350px alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">국밥류 다 사랑함</span><span class="title"></span></span></a>
+	<a class="gallery-item" ><img src="image/yummy2.jpg" width=350px height=350px alt="Headshot of John Adams"><span class="text-wrapper"><span class="name">떡볶이, 치킨도 다 사랑함</span><span class="title"></span></span></a>
+	<a class="gallery-item" ><img src="image/yummy3.jpg" width=350px height=350px alt="Headshot of Thomas Jefferson"><span class="text-wrapper"><span class="name">사실 싫어하는 거 없음..</span><span class="title"></span></span></a>
+	</div>
+</div>
+
+<ul>
+	<li>사진 찍기</li>
+</ul>
+<div class="container" >
+	<div class="gallery" >
+	<a class="gallery-item" ><img src="image/photo1.jpg" width=350px height=350px alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">Czech Praha</span><span class="title">2015.여름.</span></span></a>
+	<a class="gallery-item" ><img src="image/photo2.jpg" width=350px height=350px alt="Headshot of John Adams"><span class="text-wrapper"><span class="name">집앞 산책 길</span><span class="title">2019.11.</span></span></a>
+	<a class="gallery-item" ><img src="image/photo3.jpg" width=350px height=350px alt="Headshot of Thomas Jefferson"><span class="text-wrapper"><span class="name">France Paris</span><span class="title">2014.09.</span></span></a>
+	<a class="gallery-item" ><img src="image/photo4.jpg" width=350px height=350px alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">동방고</span><span class="title">2019.여름.</span></span></a>
+	<a class="gallery-item" ><img src="image/photo5.jpg" width=350px height=350px alt="Headshot of John Adams"><span class="text-wrapper"><span class="name">Spain Ronda</span><span class="title">2019.07.</span></span></a>
+	<a class="gallery-item" ><img src="image/photo6.jpg" width=350px height=350px alt="Headshot of Thomas Jefferson"><span class="text-wrapper"><span class="name">Cherryblossom</span><span class="title">2019.03.</span></span></a>
+	</div>
+</div>
+<br>
+
+</div>
+<br><Br>

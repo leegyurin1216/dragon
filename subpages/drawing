@@ -1,0 +1,152 @@
+
+
+<div style="width: 100vw;
+    margin-left: calc(-50vw + 50%); background-color:black;">
+    <h3 style="margin-top: 0;"><br>" Drawing "<br><br><br></h3>
+
+<div align=center>
+    <label class="btn btn--blue" for="modal-1">
+    <img src="image/20210123_장미7.png" width=350px height=350px style="margin-bottom:40px">
+    </label>
+		<input class="modal-state" id="modal-1" type="checkbox" />
+		<div class="modal">
+		  <label class="modal__bg" for="modal-1"></label>
+		  <div class="modal__inner">
+		    <label class="modal__close" for="modal-1"></label>
+		    <h2>2021.01.23. rose</h2>
+		    <p><img src="image/20210123_장미7.png" width=100% alt="" />
+				노트북 사고 처음 그린 그림이다. 그림 툴도 잘 모르고 layer 이런 것도 몰라서 진짜 그냥 노력만으로 시간 투자 엄청 해서
+				그렸다..
+				</p>
+		  </div>
+		</div>
+
+		<label class="btn btn--blue" for="modal-2">
+		<img src="image/20210124_앤3.png" width=350px height=350px style="margin-bottom:40px">
+		</label>
+		<input class="modal-state" id="modal-2" type="checkbox" />
+		<div class="modal">
+			<label class="modal__bg" for="modal-2"></label>
+			<div class="modal__inner">
+				<label class="modal__close" for="modal-2"></label>
+				<h2>2021.01.24. Anne</h2>
+				<p><img src="image/20210124_앤3.png" width=100% alt="" />
+				앤 그렸다. 사실 앤은 소설 속 인물이라서 정답이 없다. 그래서 앤을 그려보기로 한 것도 있다. line drawing 처음 해보는데
+				재밌는 것 같다. 이번 그림은 보고 따라할 대상이 없어서 색깔 맞추는 게 정말 좀 어려웠다. 사람 얼굴 정면 색칠하는 것도
+				은근 재밌는 것 같다. 근데 이것도 처음 시도한 그림이라서 시간이 오래걸렸다. 다음부턴 더 간단한 그림을 그려야겠다..
+				</p>
+			</div>
+		</div>
+
+		<label class="btn btn--blue" for="modal-3">
+		<img src="image/20210126.jpg" width=350px height=350px style="margin-bottom:40px">
+		</label>
+		<input class="modal-state" id="modal-3" type="checkbox" />
+		<div class="modal">
+			<label class="modal__bg" for="modal-3"></label>
+			<div class="modal__inner">
+				<label class="modal__close" for="modal-3"></label>
+				<h2>2021.01.26. portrait</h2>
+				<p><img src="image/20210126.jpg" width=100% alt="" />
+				엠마 왓슨 사진을 보고 스케치만 따라하고 색깔은 내맘대로 칠했다. 전체적으로 분홍 조명 받은 것처럼 색칠하고 싶었는데
+				그냥 얼굴 빨간 사람처럼 되어버렸다 ... 다음부턴 더 쉬운 그림 그려야겠다. 색깔 칠하는 게 너무 어렵다.
+				</p>
+			</div>
+		</div>
+
+    <label class="btn btn--blue" for="modal-4">
+    <img src="image/20210201_컵케이크.png" width=350px height=350px style="margin-bottom:40px">
+    </label>
+    <input class="modal-state" id="modal-4" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal-4"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal-4"></label>
+        <h2>2021.02.01. Cupcakes</h2>
+        <p><img src="image/20210201_컵케이크.png" width=100% alt="" />
+        Penup이라는 앱에서 컬러링을 했다. 컬러링 자체를 처음 해봐서 재밌었다. 차례대로
+        바나나맛, 민트초코맛, 딸기+생크림맛, 블루베리맛이다.
+        색만 딱딱 입히면 돼서 좋고 내 맘대로 주제와 색을 설정할 수 있어서 컬러링 정말 좋은 것 같다.
+        시간도 별로 안걸리고, 앞으로 틈 날 때마다 해봐야겠다.
+        </p>
+      </div>
+    </div>
+
+    <label class="btn btn--blue" for="modal-5">
+    <img src="image/20210201_girl.png" width=350px height=350px style="margin-bottom:40px">
+    </label>
+    <input class="modal-state" id="modal-5" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal-5"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal-5"></label>
+        <h2>2021.02.01.</h2>
+        <p><img src="image/20210201_girl.png" width=100% alt="" />
+        Penup. 금방 완성했다. 스케치가 예쁘니까 색칠할 맛이 난다. 약간 외계인처럼 색칠했다.
+        </p>
+      </div>
+    </div>
+
+    <label class="btn btn--blue" for="modal-6">
+    <img src="image/20210201_rainbow.png" width=350px height=350px style="margin-bottom:40px">
+    </label>
+    <input class="modal-state" id="modal-6" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal-6"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal-6"></label>
+        <h2>2021.02.01. </h2>
+        <p><img src="image/20210201_rainbow.png" width=100% alt="" />
+        Penup.
+        </p>
+      </div>
+    </div>
+
+    <label class="btn btn--blue" for="modal-7">
+    <img src="image/20210202_산.jpg" width=350px height=350px style="margin-bottom:40px">
+    </label>
+    <input class="modal-state" id="modal-7" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal-7"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal-7"></label>
+        <h2>2021.02.02. 산</h2>
+        <p><img src="image/20210202_산.jpg" width=100% alt="" />
+        Penup의 라이브 드로잉을 통해 그려보았다. 이번 그림 맘에 든다.
+        </p>
+      </div>
+    </div>
+
+    <label class="btn btn--blue" for="modal-8">
+    <img src="image/20210202_병아리.png" width=350px height=350px style="margin-bottom:40px">
+    </label>
+    <input class="modal-state" id="modal-8" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal-8"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal-8"></label>
+        <h2>2021.02.02. 병아리</h2>
+        <p><img src="image/20210202_병아리.png" width=100% alt="" />
+        나 닭 진짜 좋아하는데 닭의 새끼인 병아리들이다. 귀엽게 생겼다.
+        </p>
+      </div>
+    </div>
+
+    <label class="btn btn--blue" for="modal-9">
+    <img src="image/20210202_민들레.png" width=350px height=350px style="margin-bottom:40px">
+    </label>
+    <input class="modal-state" id="modal-9" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal-9"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal-9"></label>
+        <h2>2021.02.02. 민들레</h2>
+        <p><img src="image/20210202_민들레.png" width=100% alt="" />
+        
+        </p>
+      </div>
+    </div>
+
+</div>
+<br><br><br><br><br><br>
+</div>

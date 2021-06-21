@@ -1,0 +1,175 @@
+<h3>생체의공실험</h3>
+
+	<h4>보고서</h4>
+<div class="whitebox" align=center style="line-height:400%;">
+<br>
+
+<label class="btn" for="modal-0">0차 OrCad 실습</label>
+<input class="modal-state" id="modal-0" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-0"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-0"></label>
+    <!--<h2>0차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/0차결과보고서_이규린_오전.pdf" height="600" width="100%">
+  	</iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-1">1차 Equipments</label>
+<input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-1"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-1"></label>
+    <!--<h2>1차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/1차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+
+
+<label class="btn" for="modal-2">2차 Resistive Circuits</label>
+<input class="modal-state" id="modal-2" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-2"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-2"></label>
+    <!--<h2>2차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/2차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-3">3차 KVL KCL</label>
+<input class="modal-state" id="modal-3" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-3"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-3"></label>
+    <!--<h2>3차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/3차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-4">4차 Eq Ckt Maxpower Transfer</label>
+<input class="modal-state" id="modal-4" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-4"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-4"></label>
+    <!--<h2>4차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/4차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-5">5차 Capacitor Inductor</label>
+<input class="modal-state" id="modal-5" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-5"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-5"></label>
+    <!--<h2>5차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/5차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-6">6차 RC Circuits</label>
+<input class="modal-state" id="modal-6" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-6"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-6"></label>
+    <!--<h2>6차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/6차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-7">7차 RL Circuits</label>
+<input class="modal-state" id="modal-7" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-7"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-7"></label>
+    <!--<h2>7차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/7차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-8">8차 RLC Resonance</label>
+<input class="modal-state" id="modal-8" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-8"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-8"></label>
+    <!--<h2>8차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/8차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-9">9차 LC filter W-Bridge</label>
+<input class="modal-state" id="modal-9" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-9"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-9"></label>
+    <!--<h2>9차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/9차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+&nbsp
+
+<label class="btn" for="modal-10">10차 Differentiator Integrator</label>
+<input class="modal-state" id="modal-10" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-10"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="modal-10"></label>
+    <!--<h2>10차</h2>-->
+    <p align=center>
+    <iframe src="studyfile/10차결과보고서_이규린_오전.pdf" height="600" width="100%">
+    </iframe>
+    </p>
+  </div>
+</div>
+
+<br><br>
+</div>
+<br><br>
